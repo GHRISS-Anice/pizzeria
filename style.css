@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #c02031 !important;
+
+
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navbar1 li {
+    margin: 5px;
+    
+}
+
+.navbar1 li a {
+    color: white;
+    font-size: 18px;
+}
+.navbar1 :hover {
+    color: #f9bc53;
+}
+
+.contact li a {
+    color: #c02130;
+    background-color: white;
+    border-radius: 3rem; 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact li a:hover {
+    color: #1f4b34;
+}
+.contact {
+    width: 20%;
+}
+.sous-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 4rem;
+    font-family: "Ephesis", cursive;
+}
+
+.sous-main h1 {
+    font-size: 100px;
+}
+
+    .sous-main .top2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -45px; 
+        z-index: 1;
+        padding-left: 15rem;
+        color: #c02031;
+
+    }
+
+    .sous-main img {
+        position: relative;
+        top: -90px; 
+        z-index: 1;
+    }
+    .pizza-main {
+        height: 200px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        margin-bottom: 1rem;
+        position: relative;
+        top: 50px;
+    }
+
+    .card3 {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .card3 h3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card {
+        width: 30%;
+        height: 100%;
+    }
+    .card-body {
+        padding: 2rem 1rem;
+        background-color: #fef6e6;
+
+    }
+
+    .card-link {
+        text-decoration: none;
+        background-color: #01a196;
+        color: white;
+        padding: 10px;
+        border-radius: 3rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: -20px;
+        width: 50%;
+        margin: 0.5rem auto ;
+        
+    }
+
+    .card-body a:hover{
+        color: black;
+        
+    }
+    .card-text {
+        margin: 0 5px;
+        height: 120px;
+        padding: 5px 12px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+    .swipe-button {
+        position: relative;
+        top: 130px;
+        font-size: 24px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+
+        transition: transform 0.3s ease;
+    }
+
+    .swipe-left {
+        color: #01a196;
+        background-color: white;
+        font-size:70px;
+
+    }
+    
+    .swipe-right {
+        color: #01a196;
+        background-color: white;
+        font-size:70px;
+    }
+
+    .swipe-left:hover {
+        transform: translateX(-10px);
+    }
+
+    .swipe-right:hover {
+        transform: translateX(10px);
+    }
+    .cards button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nous {
+        display: flex;
+        background-image: url('img/backimg.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .histoire {
+        width: 60%;
+        padding: 3.5rem;
+
+
+    }
+
+    .title {
+        text-align: center;
+        font-family: "Ephesis", cursive;
+        width: 70%;
+        margin: auto;
+        height: 200px;
+    }
+    .title1 h1 {
+        color: #1f4b34;
+    }
+    .title h1 {
+        font-size: 75px;
+        color: #fef6e6;
+        
+    }
+    .une-histoire {
+        display: flex;
+    justify-content: flex-start;
+    }
+
+    .h1nous {
+        position: relative;
+        bottom: 50px;
+        
+    }
+    .pics {
+        width: 40%;
+        padding: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pics img {
+        width: 300px; 
+        height: 300px;
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
+
+    .histoire p {
+        width: 70%;
+        margin: auto;
+        color: #fef6e6;
+    }
+
+    .savoir a {
+        text-decoration: none;
+        background-color: #fef6e6;
+        color: #c02031;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 3rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: -20px;
+        width: 50%;
+        margin: 0.5rem auto ;
+        
+    }
+    .pizza-title {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 2rem;
+    }
+    .pics-pizza{
+        width: 50%;
+    }
+    .pics-vin {
+        width: 100%;
+    }
+
+    .title1-1 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Ephesis", cursive;
+        font-size: 90px;
+
+    }
+    .title1-1 h1 {
+        font-size: 70px;
+    }
+
+    .top1-1 {
+        width: 100%;
+        position: relative;
+        left: -100px;
+        color: #1f4b34;
+        margin: 0;
+    }
+    
+    .top2-2 {
+        width: 100%;
+        position: relative;
+        left: 100px;
+        color: #c02031;
+    }
+    .pizza-maison {
+        display: flex;
+        flex-direction: column;
+        background-image: url('img/backimg2.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: 80% -100px ;
+    }
+
+        .pizza-text {
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            margin: auto;
+            
+        }
+        .text-maison {
+            width: 70%;
+            font-size: 25px;
+            font-weight: 450;
+            padding-left: 200px;
+        }
+        .text-maison span {
+            font-weight: 700;
+        }
+
+        .logo-maison {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -50px;
+        }
+        .card-link2 {
+            text-decoration: none;
+            background-color: #c02031;
+            color: white;
+            padding: 10px;
+            border-radius: 3rem;
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            width: 20%;
+            margin: 0.5rem auto ;
+        }
+
+        .btn-carte {
+            margin-bottom: 2rem;
+        }
+        .livraison {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+        .liv-g {
+            width: 60%;
+            font-family: "Ephesis", cursive;
+        }
+        .liv-d {
+            width: 40%;
+        }
+        .liv-d img {
+            width: 70%;
+        }
+        .title-live {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .title-live h1 {
+            font-size: 70px;
+            margin: 0;
+        }
+        .top1-2 {
+            height: 45px;
+        }
+        .top2-3 {
+            color: #01a196;
+            padding-left: 165px;
+        }
+        .logo-liv {
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-liv img {
+            margin: 2rem;
+        }
+        .card-link3 {
+            text-decoration: none;
+            background-color: #c02031;
+            color: white;
+            padding: 10px;
+            border-radius: 3rem;
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            width: 25%;
+            margin: 0.5rem auto ;
+        }
+        .cmd {
+            margin-bottom: 8rem;
+        }
+
+        footer {
+            background-color: #01a196;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 1rem;
+        }
+
+        footer a:hover {
+            color: black;
+        }
+        .title-avis {
+            display: flex;
+            justify-content: center;
+            font-family: "Ephesis", cursive;
+            height: 70px;
+
+
+        }
+        .title-avis h1  {
+             font-size: 65px;
+             color: #c02031;
+             margin: 0;
+             width: 50%;
+             text-align: center;
+             align-items: center;
+        }
+        .etoiles {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .etoiles img {
+            width: 25%;
+        }
+        .text-avis {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .avis {
+            padding: 2rem 0;
+            background-color: #ffd745 ;
+        }
+        .avis p {
+            font-weight: 700;
+            margin: 1rem 0;
+        }
+
+     @media  (width < 1171px) {
+
+        .histoire {
+            padding: 2rem;
+        }
+        .une-histoire {
+            padding-top: 2rem;
+            font-size: 50px;
+        }
+        .card-title {
+            font-size: 24px;
+        }
+        .card-text  {
+            font-size: 16px;
+        }
+        .savoir a {
+            bottom: -15px;
+        }
+        .top1-1 {
+            left: 0;
+        }
+        .title1-1 {
+            width: 40%;
+        }
+        .text-maison {
+            padding: 0;
+        }
+        .etoiles img {
+            width: 30%;
+        }
+
+        .card-link3  {
+            width: 35%;
+        }
+     }
+
+@media  (width < 992px) {
+
+    .navbar1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+    .sous-main {
+        height: 420px;
+    }
+
+
+.contact {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+
+.sous-main {
+    width: 100%;
+}
+
+.title1{
+    width: 100%;
+}
+.top1{
+    text-align: center;
+}
+
+
+.card-title {
+    font-size: 16px;
+    width: 100%;
+}
+.card-text  {
+    font-size: 12px;
+    height: 150px;
+}
+.card-body{
+    padding: 2rem 0;
+}
+.card-link {
+    margin: 0.5rem auto ;
+    width: 80%;
+}
+.nous {
+    background-color: #c02031;
+    background-image: none;
+}
+.title h1 {
+    font-size: 55px;
+    
+}
+.title {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title1-1 h1 {
+    font-size: 45px;
+}
+.card-link2 {
+    width: 40%;
+}
+.title-avis  h1 {
+     width: 100%;
+}
+.logo-liv {
+    justify-content: space-around;
+}
+.logo-liv img {
+    margin:  2rem 0rem;
+}
+.card-link3 {
+    width: 60%;
+}
+.title-live h1 {
+    font-size: 56px;
+}
+.liv-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.liv-d img {
+    height: 200px;
+    width: 100%;
+}
+.text-avis {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+}
+.etoiles img {
+    height: 100px;
+    width: 60%;
+}
+.text-maison {
+    font-size: 20px;
+}
+.pics-vin {
+    height: 250px;
+}
+img,svg {
+    height: 120px;
+    width: 150px;
+}
+.histoire p {
+    width: 100%;
+}
+
+ }
+
+ @media  (width < 600px) {
+
+    .navbar1{
+        width: 100%;
+    }
+    .contact {
+        width: 70%;
+    }
+    .container-fluid img {
+        width: 100px;
+        height: 80px;
+    }
+    .card-link {
+        font-size: 12px;
+ } 
+ .sous-main .top2 {
+    padding-left: 5rem;
+ }
+ .card-text {
+    font-size: 11px;
+    margin: 4px;
+    padding: 4px;
+ }
+ .sous-main {
+    margin-bottom: 2rem;
+}
+.pics img {
+    height: 200px;
+    width: 200px;
+}
+.histoire {
+    padding: 1rem;
+}
+.title {
+    margin: 2rem 0 0 0;
+    width: 100%;
+}
+.savoir a {
+    width: 80%;
+}
+.pizza-title { 
+    margin: 0;
+    width: 100%;
+}
+.pizza-title h1 {
+    font-size: 40px;
+}
+.pics-pizza {
+    width: 40%;
+}
+.title1-1 {
+    width: 60%;
+}
+.pizza-text {
+    align-items: center;
+}
+.text-avis {
+    font-size: 14px;
+    width: 90%;
+}
+.etoiles img{
+    height: 80px;
+}
+
+.top2-3 {
+    padding: 0 0 0 6rem;
+}
+.title-live h1 {
+    font-size: 45px;
+}
+.logo-liv img {
+    width: 90px;
+    height: 90px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top2-2 {
+    left: 50px;
+}
+.card-link2 {
+    width: 60%;
+}
+.title-avis h1 {
+    font-size: 45px;
+}
+.card-link3 {
+    font-size: 14px;
+    padding: 1rem;
+}
+}

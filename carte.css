@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #c02031 !important;
+
+
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navbar1 li {
+    margin: 5px;
+    
+}
+
+.navbar1 li a {
+    color: white;
+    font-size: 18px;
+}
+.navbar1 :hover {
+    color: #f9bc53;
+}
+
+.contact li a {
+    color: #c02130;
+    background-color: white;
+    border-radius: 3rem; 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact li a:hover {
+    color: #1f4b34;
+}
+.contact {
+    width: 20%;
+}
+
+h1 {
+    font-family: "Ephesis", cursive;
+    font-size: 65px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e4;
+}
+
+.menu-container {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #b33f3f;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h2 {
+    color: #6b2a2a;
+    border-bottom: 2px solid #b33f3f;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.menu-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+
+
+footer {
+    background-color: #c02031;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+@media  (width < 992px) {
+
+    .navbar1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .sous-main {
+        height: 420px;
+    }
+
+
+.contact {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+} 
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+}
