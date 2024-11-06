@@ -50,7 +50,19 @@
     width: 20%;
 }
 
+.contact-container {
+    margin: 4rem;
+}
 
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+button.envoyer {
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
 
 
 
@@ -112,6 +124,22 @@ input, textarea {
         justify-content: center;
          }
         
+
+
+         @media  (width < 1053px) {
+            main {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .contact-container{
+                width: 50%;
+            }
+            .contact-info p {
+                padding-left: 2rem;
+            }
+         }
+
 
     @media  (width < 992px) {
 
